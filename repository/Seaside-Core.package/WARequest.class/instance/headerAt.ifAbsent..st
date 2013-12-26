@@ -1,3 +1,3 @@
 accessing
 headerAt: aKey ifAbsent: aBlock
-	^ headers at: aKey ifAbsent: aBlock
+	^ self headers at: aKey ifAbsent: aBlock

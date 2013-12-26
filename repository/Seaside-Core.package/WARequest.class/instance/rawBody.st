@@ -4,4 +4,4 @@ rawBody
 	
 	Use #bodyDecoded or #bodyDecodeUsing: to access the decoded contents."
 
-	^ body
+	^ body ifNil: [ body := adaptor ifNotNil: [ adaptor requestBodyFor: nativeRequest ] ifNil: [ '' ] ]

@@ -1,3 +1,3 @@
 accessing
 uri
-	^ uri
+	^ uri ifNil: [ uri := adaptor ifNotNil: [ (adaptor requestUrlFor: nativeRequest) seasideUrl ] ]

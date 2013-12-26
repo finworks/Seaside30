@@ -3,6 +3,7 @@
 		"on:" : "lr 1/12/2009 14:59" },
 	"instance" : {
 		"authenticate:" : "lr 2/15/2009 10:01",
+		"badRequest" : "otto 12/26/2013 14:50",
 		"expiredRegistryKey" : "Nick 6/13/2010 17:54",
 		"forbidden" : "jf 1/30/2010 17:02",
 		"initializeOn:" : "lr 1/12/2009 14:59",

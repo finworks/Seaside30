@@ -11,7 +11,8 @@
 		"response",
 		"codec",
 		"consumer",
-		"properties" ],
+		"properties",
+		"urlPathError" ],
 	"name" : "WARequestContext",
 	"pools" : [
 		 ],

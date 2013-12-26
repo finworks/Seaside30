@@ -4,6 +4,4 @@ initializeWithRequest: aRequest response: aResponse codec: aCodec
 	handlers := OrderedCollection new.
 	request := aRequest.
 	response := aResponse.
-	codec := aCodec.
-	aRequest isNil ifFalse: [
-		consumer := WAPathConsumer path: aRequest url path copy ]
+	codec := aCodec

@@ -6,6 +6,8 @@
 		 ],
 	"commentStamp" : "pmm 9/6/2009 12:48",
 	"instvars" : [
+		"nativeRequest",
+		"adaptor",
 		"method",
 		"uri",
 		"version",
